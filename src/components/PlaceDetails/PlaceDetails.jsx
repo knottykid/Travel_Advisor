@@ -103,7 +103,7 @@ const PlaceDetails = ({ place, selected, refProp }) => {
           <Button
             size="small"
             color="primary"
-            onClick={() => window.open(place.web_url, "_blank")}
+            onClick={() => window.open(place.website, "_blank")}
           >
             Website
           </Button>
