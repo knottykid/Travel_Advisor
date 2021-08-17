@@ -44,7 +44,7 @@ const List = ({
         </div>
       ) : (
         <>
-          <FormControl className={classes.formcontrol}>
+          <FormControl className={classes.formControl}>
             <InputLabel>Type</InputLabel>
             <Select value={type} onChange={(e) => setType(e.target.value)}>
               <MenuItem value="restaurants">Restaurants</MenuItem>
@@ -52,7 +52,7 @@ const List = ({
               <MenuItem value="attractions">Attractions</MenuItem>
             </Select>
           </FormControl>
-          <FormControl className={classes.formcontrol}>
+          <FormControl className={classes.formControl}>
             <InputLabel>Rating</InputLabel>
             <Select value={rating} onChange={(e) => setRating(e.target.value)}>
               <MenuItem value={0}>All</MenuItem>
